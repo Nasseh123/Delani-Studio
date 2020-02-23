@@ -160,3 +160,48 @@
   }
   ::placeholder{
     color: whitesmoke;
+  }
+  .soc{
+      margin-top: 20px;
+  }
+  .de{
+      margin-top: 5px;
+  }
+  .card:hover img {
+    transform: scale(1.2);
+    transition: all 0.3s ease;
+}
+.c{
+    position: absolute;
+    width: 100%;
+    min-height: 100%;
+    background: rgba(0, 0, 0, 0.582);
+    cursor: pointer;
+    display: none;
+    transition: all 0.5s ease;
+}
+.ptag {
+    padding: 5% 0;
+    color: white;
+    background-color: rgba(0, 0, 0, 0.301);
+    padding: 50px 10px;
+    font-weight: 100%;
+    padding-top: 30px;
+    border: 4px solid whitesmoke;
+    font-size: 1.1em;
+    line-height: 90%;
+    margin: 20% 5%;
+    overflow: hidden;
+    letter-spacing: 2px;
+    font-family: 'Merienda', cursive;
+}
+.soc img {
+    border-radius: 50%;
+    transition: 0.2s ease-out;
+}
+.soc img:hover {
+    box-shadow: 0 0 20px rgb(0, 0, 0);
+    margin: -3px;
+    padding: 3px;
+    background: yellowgreen;
+}
