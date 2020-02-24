@@ -147,9 +147,22 @@
       padding-top: 80px;
       padding-bottom: 150px;
       margin-top: 15px;
+      
   }
-  .con{
+  .conn{
     background-color:transparent;   
+  }
+  .mes{
+      height: 150px;
+      width: 600px;
+  }
+  ::placeholder{
+      font-weight: 500;
+      font-size: 30px;
+      text-align: center;
+  }
+  .button{
+      text-align: center;
   }
   #message{
       height: 300px;
