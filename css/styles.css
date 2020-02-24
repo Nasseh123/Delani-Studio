@@ -149,9 +149,7 @@
       margin-top: 15px;
   }
   .con{
-    background-color:transparent;
-    color: whitesmoke;
-    
+    background-color:transparent;   
   }
   #message{
       height: 300px;
@@ -203,5 +201,19 @@
     box-shadow: 0 0 20px rgb(0, 0, 0);
     margin: -3px;
     padding: 3px;
-    background: yellowgreen;
+    background: red;
+}
+@media screen and (max-width:450px) {
+    .form-cont input {
+        width: 100%;
+        margin-top: 10px;
+    } 
+    body{
+        overflow-x: hidden;
+    }
+}
+@media screen and (max-width:1024px) {
+    * {
+        font-size: calc(1vw + 1vh + .5vmin);
+    }
 }
